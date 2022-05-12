@@ -43,7 +43,7 @@ driveLink('https://drive.google.com/file/d/1Px8bePd7pFSz5r6bTA7GKN9HloCzMfFk/vie
 export function driveLink(URLorID: string, { apiKey }: DriveOptions = {}) {
   if (typeof URLorID !== "string") {
     throw new TypeError(
-      `Invalid URL provided, expected string, got ${typeof URLorID}`
+      `Invalid URL provided, expected string, got ${typeof URLorID}`,
     );
   }
 
