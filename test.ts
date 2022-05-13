@@ -30,7 +30,7 @@ Deno.test("Main", () => {
 Deno.test("Errors", () => {
   assertThrows(
     () => {
-      // @ts-ignore
+      // @ts-ignore: It should throw an error.
       driveLink(3);
     },
     Error,
