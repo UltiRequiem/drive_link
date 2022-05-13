@@ -42,18 +42,18 @@ driveLink('https://drive.google.com/file/d/1Px8bePd7pFSz5r6bTA7GKN9HloCzMfFk/vie
 */
 export function driveLink(URLorID: string, { apiKey }: DriveOptions = {}) {
   if (typeof URLorID !== "string") {
-    throw new TypeError(
-      `Invalid URL provided, expected string, got ${typeof URLorID}`,
-    );
+    throw new TypeError("Invalid URL Provided.");
   }
 
   if (typeof apiKey === "string" && !alphanumericRegex.test(apiKey)) {
-    throw new TypeError(`Invalid API key provided `);
+    throw new TypeError("Invalid API key provided");
   }
 
   const id = extractId(URLorID.trim());
 
-  return apiKey
-    ? `https://www.googleapis.com/drive/v3/files/${id}?alt=media&key=${apiKey.trim()}`
+  const parsedKey = apiKey?.trim();
+
+  return parsedKey
+    ? `https://www.googleapis.com/drive/v3/files/${id}?alt=media&key=${parsedKey}`
     : `https://drive.google.com/uc?export=download&id=${id}`;
 }
