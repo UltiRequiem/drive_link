@@ -46,7 +46,7 @@ export function driveLink(URLorID: string, { apiKey }: DriveOptions = {}) {
   }
 
   if (typeof apiKey === "string" && !alphanumericRegex.test(apiKey)) {
-    throw new TypeError("Invalid API key provided");
+    throw new TypeError("Invalid API key provided.");
   }
 
   const id = extractId(URLorID.trim());
