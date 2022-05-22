@@ -1,7 +1,7 @@
 import { buildPackage } from "https://deno.land/x/ultirequiem@0.0.15/node.ts";
 
 buildPackage({
-  repoName: "drive-link",
+  repoName: "drive_link",
   name: "@ultirequiem/drive-link",
   description:
     "Generate a Google Drive direct download link based on the URL or ID.",
