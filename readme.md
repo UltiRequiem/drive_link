@@ -10,15 +10,15 @@ on the URL or ID.
 
 The API is the same on all this platforms ✔️
 
-### [Deno 🦕](https://deno.land/x/drive-link)
+### [Deno 🦕](https://deno.land/x/drive_link)
 
 ```javascript
 import { driveLink } from "https://deno.land/x/drive_link/mod.ts";
 
 driveLink(
-  "https://drive.google.com/file/d/1Px8bePd7pFSz5r6bTA7GKN9HloCzMfFk/view?usp=sharing",
+  "https://drive.google.com/file/d/1DvRH-yk1z0HVBK-EmiQeJ_VVh5eHwQXh/view?usp=sharing",
 );
-//=> 'https://drive.google.com/uc?export=download&id=1Px8bePd7pFSz5r6bTA7GKN9HloCzMfFk'
+//=> "https://drive.google.com/uc?export=download&id=1DvRH-yk1z0HVBK-EmiQeJ_VVh5eHwQXh"
 ```
 
 ### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/drive-link)
