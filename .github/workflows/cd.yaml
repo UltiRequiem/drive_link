@@ -14,7 +14,6 @@ jobs:
         run: |
           mkdir output
           cp readme.md output/
-          echo ${{ github.event.repository.name }}.js.org >> output/CNAME
           echo theme: jekyll-theme-cayman >> output/_config.yml
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.5
