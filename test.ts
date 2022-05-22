@@ -34,7 +34,15 @@ Deno.test("Errors", () => {
       driveLink(3);
     },
     Error,
-    "Invalid URL Provided.",
+    "Invalid URL provided.",
+  );
+
+  assertThrows(
+    () => {
+      driveLink("https://ultirequiem.com");
+    },
+    Error,
+    "Invalid URL provided.",
   );
 
   assertThrows(
