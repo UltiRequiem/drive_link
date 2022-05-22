@@ -8,5 +8,5 @@ buildPackage({
   homepage: "https://ulti.js.org/drive_link",
   keywords: ["drive", "google"],
   license: "MIT",
-  version: "1.0.0",
+  version: "1.0.1",
 });
