@@ -8,10 +8,6 @@ on the URL or ID.
 
 ## Usage
 
-The API is the same on all this platforms ✔️
-
-### [Deno 🦕](https://deno.land/x/drive_link)
-
 ```javascript
 import { driveLink } from "https://deno.land/x/drive_link/mod.ts";
 
@@ -21,21 +17,7 @@ driveLink(
 //=> "https://drive.google.com/uc?export=download&id=1DvRH-yk1z0HVBK-EmiQeJ_VVh5eHwQXh"
 ```
 
-### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/drive-link)
-
-```javascript
-import { driveLink } from "@ultirequiem/drive-link";
-```
-
-### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
-
-You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
-
-Eg 👉
-[ESM](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules) ↔️
-[SkyPack](https://cdn.skypack.dev/@ultirequiem/drive_link) 🆚
-[Script Tag](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script)
-↔️ [JSDelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/drive_link)
+> Check [platforms](./platforms.md) for other runtime options.
 
 ## Documentation
 
