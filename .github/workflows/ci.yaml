@@ -50,4 +50,4 @@ jobs:
 
       - name: Node Test
         if: matrix.os == 'ubuntu-latest'
-        run: deno run -A scripts/node.ts
+        run: deno run -A scripts/npm.ts

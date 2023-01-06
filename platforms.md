@@ -2,13 +2,16 @@
 
 While this module is made for Deno, it also works on:
 
-### [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/drive-link)
+## [Node.js 🐢🚀](https://npmjs.com/package/@ultirequiem/drive-link)
 
 ```javascript
 import { driveLink } from "@ultirequiem/drive-link";
 ```
 
-### [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
+> I would recommend use [this module](https://github.com/Richienb/drive-url)
+> that does the same but it's Node.js first.
+
+## [Browser 🌐](https://developer.mozilla.org/en-US/docs/Glossary/Browser)
 
 You can use any [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) 🔥
 
