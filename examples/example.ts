@@ -1,4 +1,4 @@
-import { driveLink } from "./mod.ts";
+import { driveLink } from "../src/index.js";
 
 console.log(
   driveLink(
