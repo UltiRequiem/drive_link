@@ -1,7 +1,7 @@
 {
   "name": "@ultirequiem/drive-link",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Turn a Google Drive share link into a direct download link.",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -17,7 +17,13 @@
   "engines": {
     "node": ">=20"
   },
-  "keywords": [],
+  "keywords": [
+    "google-drive",
+    "download",
+    "link",
+    "esm",
+    "typescript"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
