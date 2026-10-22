@@ -16,21 +16,7 @@ npm install @ultirequiem/drive-link
 
 ## Usage
 
-```javascript
-import { driveLink } from "https://deno.land/x/drive_link/mod.ts";
-
-driveLink(
-  "https://drive.google.com/file/d/1DvRH-yk1z0HVBK-EmiQeJ_VVh5eHwQXh/view?usp=sharing",
-);
-//=> "https://drive.google.com/uc?export=download&id=1DvRH-yk1z0HVBK-EmiQeJ_VVh5eHwQXh"
-```
-
 > Check [platforms](./platforms.md) for other runtime options.
-
-## Documentation
-
-Is hosted on
-[Deno Doc](https://doc.deno.land/https://deno.land/x/drive_link/mod.ts) 📄
 
 ## Support
 
