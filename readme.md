@@ -16,6 +16,8 @@ npm install @ultirequiem/drive-link
 
 ## Usage
 
+ESM only: the same import works in Node.js, Bun and browsers.
+
 > Check [platforms](./platforms.md) for other runtime options.
 
 ## Support
