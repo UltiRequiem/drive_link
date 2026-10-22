@@ -1,6 +1,9 @@
 # Drive Link
 
-[![Code Coverage](https://codecov.io/gh/UltiRequiem/drive_link/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/drive_link)
+[![npm](https://img.shields.io/npm/v/@ultirequiem/drive-link?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/drive-link)
+[![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/drive-link?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/drive-link)
+[![CI](https://github.com/UltiRequiem/drive_link/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/drive_link/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/UltiRequiem/drive_link/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/drive_link)
 
 Generate a [Google Drive](https://google.com/drive) direct download link based
 on the URL or ID.
@@ -8,7 +11,7 @@ on the URL or ID.
 ## Install
 
 ```sh
-npm install drive-link
+npm install @ultirequiem/drive-link
 ```
 
 ## Usage
@@ -31,12 +34,12 @@ Is hosted on
 
 ## Support
 
-Open an Issue, I will check it a soon as possible 👀
+Open an Issue, I will check it as soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
 
-Don't forget to start the repo ⭐
+Don't forget to star the repo ⭐
 
 ## Authors
 
