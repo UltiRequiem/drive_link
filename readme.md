@@ -1,10 +1,15 @@
 # Drive Link
 
 [![Code Coverage](https://codecov.io/gh/UltiRequiem/drive_link/branch/main/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/drive_link)
-[![Deno Doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/drive_link/mod.ts)
 
 Generate a [Google Drive](https://google.com/drive) direct download link based
 on the URL or ID.
+
+## Install
+
+```sh
+npm install drive-link
+```
 
 ## Usage
 
@@ -30,9 +35,6 @@ Open an Issue, I will check it a soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/UltiRequiem) 😆
-
-Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
-my work 🙏
 
 Don't forget to start the repo ⭐
 
