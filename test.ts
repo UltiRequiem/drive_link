@@ -1,7 +1,7 @@
 import {
   assertEquals,
   assertThrows,
-} from "https://deno.land/std@0.204.0/testing/asserts.ts";
+} from "https://deno.land/std@0.224.0/testing/asserts.ts";
 
 import { driveLink } from "./mod.ts";
 
